@@ -1,5 +1,10 @@
 import networkx as nx
 import numpy as np
+import igraph as ig
+from igraph import plot
+import matplotlib.pyplot as plt
+import matplotlib.cm as cm
+
 
 
 def info(G):
@@ -26,3 +31,6 @@ def info(G):
         info += "Diámetro: No aplica (grafo no conectado)\n"
     
     return info
+
+
+
